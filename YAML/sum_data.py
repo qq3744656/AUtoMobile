@@ -25,9 +25,7 @@ def get_my_data(url=url):
     data_info = []
     data = GetData().get_yamle_data(url)
     for i in data.values():
-        info = []
-        info.append([i.get("a"), i.get("b"), i.get("c")])
-        data_info.append(info)
+        data_info.append([i.get("a"), i.get("b"), i.get("c")])
     print(data_info)
     return data_info
 
