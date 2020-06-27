@@ -1,0 +1,18 @@
+#info: {Name: "孙梦瑶",age: 18,isMan: False}
+info:
+  Name: "孙梦瑶"
+  age: 18
+  isMan: False
+# 小写的false会自动转换成大写的False
+msg:
+  Name: "孙梦瑶"
+  age: 18
+  isMan: false
+
+# yaml 数组
+message:
+  - "type list"
+  - "second value"
+  - "third value "
+
+data: ["python列表","helloworld"]
